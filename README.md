@@ -3,7 +3,9 @@
 This repository contains the source code to reproduce the results in our paper "Ensuring Fairness in Group Recommendations by Rank-Sensitive Balancing of Relevance" in the Proceedings of RecSys 2020.
 ## Authors
 Mesut Kaya
+
 Derek Bridge
+
 Nava Tintarev
 
 ## Dependencies
