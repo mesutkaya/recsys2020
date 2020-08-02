@@ -64,8 +64,6 @@ public class DiscountedFirstHitFairness<G, I, U> extends AbstractRecommendationM
                 double min = group_val.stream().mapToDouble(v -> v).min().getAsDouble();
                 if (max != 0)
                     result = min / max;
-            } else if (TYPE.equals("MEAN")) {
-                result = group_val.stream().mapToDouble(v -> v).average().getAsDouble();
             }
         }
         return result;

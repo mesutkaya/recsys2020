@@ -54,9 +54,6 @@ public class RecallGroupFairness<G, I, U> extends AbstractRecommendationMetric<G
                 if (max != 0)
                     result = min / max;
             }
-            else if(TYPE.equals("MEAN")){
-                result = group_val.stream().mapToDouble(v -> v).average().getAsDouble();
-            }
         }
         return result;
     }
