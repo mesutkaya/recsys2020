@@ -1,6 +1,6 @@
 # Ensuring Fairness in Group Recommendations by Rank-Sensitive Balancing of Relevance
 
-This repository contains the source code to reproduce the results in our paper "Ensuring Fairness in Group Recommendations by Rank-Sensitive Balancing of Relevance" in the Proceedings of RecSys 2020.
+This repository contains the source code to reproduce the results in our paper "Ensuring Fairness in Group Recommendations by Rank-Sensitive Balancing of Relevance" in the Proceedings of RecSys 2020. "extra_results.pdf" file contains all omitted results due to the space limitations.
 ## Authors
 Mesut Kaya
 
